@@ -13,6 +13,6 @@ function draw() {
 
 function keyPressed() {
   if (key == ' ') {
-    console.log("SPACE PRESSED")
+    bird.up();
   }
 }
